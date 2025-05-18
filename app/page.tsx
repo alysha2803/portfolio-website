@@ -77,7 +77,7 @@ export default function Home() {
       <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-12">
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-left">
+            <div className="text-left z-10 relative">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 font-mono">Hi, I'm Alysha.</h1>
               <p className="text-xl md:text-2xl mb-8 font-mono">
                 A Software Engineering student, eager to grow and learn.
@@ -93,7 +93,7 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative w-32 h-32 md:w-48 md:h-48 mr-8 md:mr-16">
+            <div className="relative w-32 h-32 md:w-48 md:h-48 mt-12 md:mt-0 md:mr-16 order-last md:order-none">
               <div className="w-full h-full relative flex items-center justify-center">
                 <Image
                   src="/images/character.gif"
